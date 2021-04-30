@@ -22,7 +22,7 @@ Change method of get temperature or location infomation
 
 ``` Java
 //------------------------------------------------------ get temperature when use
-	byte currentTemp = temp;
+	byte currentTemp = 0;
 //------------------------------------------------------
 ```
 
