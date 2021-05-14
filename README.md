@@ -5,36 +5,36 @@
 #### Communication test
 |Enum|request|response|
 |---|:---:|:---:|
-|*first_send_code*|MBCCD|SBCRD|
+|*FIRST_SEND_CODE*|MBCCD|SBCRD|
 
 #### Internal Projector
 |Enum|request|response|
 |---|:---:|:---:|
-|*internalHeat_start*|MISSD|SISRD|
-|*internalHeat_finish*|MIFFD|SIFRD|
-|*internalHeat_tempControl*|MIT'temp'D|SIT'temp'D|
-|*internalHeat_statusTrans*||SI'temp''loc'D|
+|*INTERNALHEAT_START*|MISSD|SISRD|
+|*INTERNALHEAT_FINISH*|MIFFD|SIFRD|
+|*INTERNALHEAT_TEMPCONTROL*|MIT'temp'D|SIT'temp'D|
+|*INTERNALHEAT_STATUSTRANS*||SI'temp''loc'D|
 
 #### External Projector
 |Enum|request|response|
 |---|:---:|:---:|
-|*externalHeat_start*|MESSD|SESRD|
-|*externalHeat_finish*|MEFFD|SEFRD|
-|*externalHeat_tempControl*|MET'temp'D|SET'tempD|
-|*externalHeat_stasusTrans*||SE'temp'0D|
+|*EXTERNALHEAT_START*|MESSD|SESRD|
+|*EXTERNALHEAT_FINISH*|MEFFD|SEFRD|
+|*EXTERNALHEAT_TEMPCONTROL*|MET'temp'D|SET'tempD|
+|*EXTERNALHEAT_STASUSTRANS*||SE'temp'0D|
 
 #### External sound wave
 |Enum|request|response|
 |---|:---:|:---:|
-|*soundWave_start*|MSSSD|SSSRD|
-|*soundWave_finish*|MSFFD|SSFRD|
-|*soundWave_control*|MSI'set'D|SSIRD|
+|*SOUNDWAVE_START*|MSSSD|SSSRD|
+|*SOUNDWAVE_FINISH*|MSFFD|SSFRD|
+|*SOUNDWAVE_CONTROL*|MSI'set'D|SSIRD|
 
 #### PEMF
 |Enum|request|response|
 |---|:---:|:---:|
-|*PEMF_start*|MPSSD|SPSRD|
-|*PEMF_finish*|MPFFD|SPFRD|
+|*PEMF_START*|MPSSD|SPSRD|
+|*PEMF_FINISH*|MPFFD|SPFRD|
 
 #### NACK
 |Enum|request|response|
