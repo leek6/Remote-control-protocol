@@ -41,8 +41,12 @@
 |---|:---:|:---:|
 |*NACK*||NACK|
 
+### Function
+*packetize()* makes input byte to packet(class)</br></br>
+*responsePacket(Packet req)* makes response byte array according to enum info of request packet
+
 ### Input
-In function packetize, change input method of incomming signal.
+In function *packetize()*, change input method of incomming byte signal.</br>
 Default is keyboard input.
 ``` Java
 //---------------------------------------------------------------------------------- input
@@ -51,7 +55,7 @@ Default is keyboard input.
 ```
 
 ### Get temperature, location
-Change method of get temperature or location infomation in function responsePacket(Info info, packet req)
+In function *responsePacket(packet req)*, change method of get temperature or location infomation 
 ``` Java
 //------------------------------------------------------ get temperature & location when use
 	byte in_currentTemp = 0;	//internal temperature
